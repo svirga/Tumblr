@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		143041C05247A956F9A327C0 /* Pods_Tumblr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ADADDD49AE1C8ECB9FD2F73 /* Pods_Tumblr.framework */; };
+		2071E8BA2010155100AF7602 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2071E8B92010155100AF7602 /* PhotoDetailsViewController.swift */; };
 		20CAE5C62006D535008427E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAE5C52006D535008427E9 /* AppDelegate.swift */; };
 		20CAE5CB2006D535008427E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CAE5C92006D535008427E9 /* Main.storyboard */; };
 		20CAE5CE2006D535008427E9 /* Tumblr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20CAE5CC2006D535008427E9 /* Tumblr.xcdatamodeld */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2071E8B92010155100AF7602 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		20CAE5C22006D535008427E9 /* Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CAE5C52006D535008427E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20CAE5CA2006D535008427E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				20CAE5E82006D924008427E9 /* PhotosViewController.swift */,
 				20CAE5EA2006E4C8008427E9 /* PhotoTableViewCell.swift */,
 				20CAE5C92006D535008427E9 /* Main.storyboard */,
+				2071E8B92010155100AF7602 /* PhotoDetailsViewController.swift */,
 				20CAE5CF2006D535008427E9 /* Assets.xcassets */,
 				20CAE5D12006D535008427E9 /* LaunchScreen.storyboard */,
 				20CAE5D42006D535008427E9 /* Info.plist */,
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20CAE5EB2006E4C8008427E9 /* PhotoTableViewCell.swift in Sources */,
+				2071E8BA2010155100AF7602 /* PhotoDetailsViewController.swift in Sources */,
 				20CAE5E92006D924008427E9 /* PhotosViewController.swift in Sources */,
 				20CAE5CE2006D535008427E9 /* Tumblr.xcdatamodeld in Sources */,
 				20CAE5C62006D535008427E9 /* AppDelegate.swift in Sources */,
